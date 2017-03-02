@@ -123,6 +123,10 @@
         background-repeat: no-repeat;
 
     }
+    
+    p{
+    margin: 5px;
+    }
 
     
 
@@ -163,6 +167,31 @@
 
 #center{
     vertical-align:middle; 
+}
+
+#wrapper {
+    /*border: 1px solid blue;*/
+    height:50%;
+    margin-top: 10%;
+}
+#div1 {
+    color:black;
+    background-color: white;
+    margin-left:1%;
+    display: inline-block;
+    width:48%;
+    height:100%;
+    /*border: 1px solid red;*/
+}
+#div2 {
+    color:black;
+    background-color: white;
+    margin-left:1%;
+    vertical-align:top;
+    display: inline-block;
+    width:48%;
+    height:100%;
+    /*border: 1px solid green;*/
 }
 
 #everything-below-is-for-grid{
